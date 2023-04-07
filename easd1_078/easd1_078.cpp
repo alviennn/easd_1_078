@@ -16,3 +16,16 @@ void merge(int low, int mid, int high) {
     int i = low;
     int AR = mid + 1;
     int k = low;
+
+    while (i <= mid && AR <= high) {
+        if (alvien[i] <= alvien[AR]) {
+            temp[k] = alvien[i];
+            i++;
+        }
+        else {
+            temp[k] = alvien[AR];
+            AR++;
+        }
+        k++;
+    }
+
