@@ -64,6 +64,15 @@ void input() {
     }
 }
 
+void display() {
+    cout << "Hasil Pengurutan: " << endl;
+    for (int i = 0; i < 98; i++) {
+        cout << alvien[i] << " ";
+    }
+    cout << endl;
+}
+
+
 
 
 
