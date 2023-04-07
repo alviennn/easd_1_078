@@ -41,5 +41,11 @@ void merge(int low, int mid, int high) {
         k++;
     }
 
+    for (int i = low; i <= high; i++) {
+        alvien[i] = temp[i];
+    }
+}
+
+
 
 
