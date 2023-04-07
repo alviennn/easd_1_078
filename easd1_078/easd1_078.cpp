@@ -57,6 +57,13 @@ void mergeSort(int low, int high) {
     merge(low, mid, high);
 }
 
+void input() {
+    cout << "Masukkan " << 98 << " data:" << endl;
+    for (int i = 0; i < 98; i++) {
+        cin >> alvien[i];
+    }
+}
+
 
 
 
