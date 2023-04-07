@@ -58,6 +58,7 @@ void mergeSort(int low, int high) {
 }
 
 void input() {
+    cout << "\nMaksimum Panjang Array adalah 98" << endl;
     cout << "\n------------------" << endl;
     cout << "\nEnter Array Element" << endl;
     cout << "\n------------------" << endl;
@@ -75,6 +76,7 @@ void display() {
     }
     cout << endl;
 }
+
 
 int main() {
     input();
