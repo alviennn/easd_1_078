@@ -58,14 +58,18 @@ void mergeSort(int low, int high) {
 }
 
 void input() {
-    cout << "Masukkan " << 98 << " data:" << endl;
+    cout << "\n------------------" << endl;
+    cout << "\nEnter Array Element" << endl;
+    cout << "\n------------------" << endl;
     for (int i = 0; i < 98; i++) {
         cin >> alvien[i];
     }
 }
 
 void display() {
-    cout << "Hasil Pengurutan: " << endl;
+    cout << "\n------------------" << endl;
+    cout << "Sorted Array" << endl;
+    cout << "------------------" << endl;
     for (int i = 0; i < 98; i++) {
         cout << alvien[i] << " ";
     }
