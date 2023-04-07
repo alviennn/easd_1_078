@@ -12,3 +12,7 @@ const int max = 78 + 20 - 2 * 15 + 10 + 20; // jumlah maksimum data
 int alvien[98];
 int temp[98];
 
+void merge(int low, int mid, int high) {
+    int i = low;
+    int AR = mid + 1;
+    int k = low;
