@@ -4,6 +4,9 @@
 //Quick sort, karena memiliki kompleksitas waktu rata-rata O(n log n) dan membutuhkan sedikit memori.
 //-Bubble sort, Insertion sort, selection sort merupakan quadratiic, quick sort dan merge sort merupakan Loglinier, sedangkan shell sort bisa jadi keduanya.
 //
-#include<iostream>
+#include <iostream>
 using namespace std;
+
+const int max = 78 + 20 - 2 * 15 + 10 + 20; // jumlah maksimum data
+
 
